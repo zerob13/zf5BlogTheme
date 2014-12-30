@@ -1,8 +1,9 @@
 <!doctype html>
 <html class="no-js" manifest="cache.manifest">
-  <head>
+
+<head>
     <meta charset="utf-8">
-    <title>zf5BlogTheme</title>
+    <title>博客主题</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1.0,minimum-scale=1.0, maximum-scale=1.0, minimal-ui">
     <link rel="shortcut icon" href="/favicon.ico">
@@ -17,32 +18,47 @@
     <!-- build:css(.tmp) styles/main.css -->
     <link rel="stylesheet" href="styles/main.css">
     <!-- endbuild -->
-  </head>
-  <body>
-    <!--[if lt IE 10]>
+</head>
+
+<body>
+    <!--[if lt IE 8]>
       <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
     <![endif]-->
+    <div class="sidebar">
+        <div class="container sidebar-bottom">
+            <div class="about">
+                <h1>混沌的云</h1>
+                <p class="lead">
 
+                    臭文青，前百度Android高级工程师，前摄影汪。满满负能量，现在在社会上做爱做的事情
 
-    <div class="hero-unit">
-      <h1>我是一个小应用</h1>
-      <p>You now have</p>
-      <ul>
-      <li>HTML5 Boilerplate</li>
-      <li>Sass</li>
-
-      </ul>
+                </p>
+            </div>
+            <ul class="navlist">
+                <li><a href="/">首页</a>
+                </li>
+                <li><a href="/articles">文章列表</a>
+                </li>
+                <li><a href="/about">关于我</a>
+                </li>
+            </ul>
+            <p class="siteinfo">
+                © 2002-2015. All rights reserved.
+            </p>
+        </div>
     </div>
-
-
+    <div class="content">
+        文章
+    </div>
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
     <script src="bower_components/zepto/zepto.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 
-        <!-- build:js({app,.tmp}) scripts/main.js -->
-        <script src="scripts/main.js"></script>
-        <!-- endbuild -->
+    <!-- build:js({app,.tmp}) scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
 </body>
+
 </html>
