@@ -1,7 +1,7 @@
 {
-  "name": "zf5_project",
+  "name": "zf5blogtheme",
+  "private": true,
   "dependencies": {
-    "foundation": "zurb/bower-foundation",
-    "font-awesome": "~4.2.0" 
+    "zepto": "~1.1.4"
   }
 }
