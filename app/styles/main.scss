@@ -8,7 +8,7 @@
 body {
     background: #fafafa;
     font-family: "PT Sans",'Helvetica Neue', Helvetica, Arial, sans-serif;
-    color: #515151;
+    color: #757575;
     height: 100%;
     width: 100%;
     -webkit-user-select: none;
@@ -82,9 +82,14 @@ ul, ol, dl {
     }
     padding: 2rem 1rem;
     color: rgba(255, 255, 255, 0.5);
-    background-color: #202020;
+    background-color: #009688;
     a {
         color: #fff;
+    }
+    a:hover {
+        color: #DD2C00;
+        border-bottom: 1px dotted #DD2C00;
+        padding: 0 0 2px;
     }
     .about {
         h1 {
@@ -125,13 +130,25 @@ ul, ol, dl {
 }
 
 .page, .post {
-    margin-bottom: 4em;
+    margin-bottom: 1em;
     .title {
         margin-top: 0;
         color: #303030;
         a {
             color: #303030;
+            &:hover {
+                color: #fff;
+            }
         }
+        &:hover {
+            background: #FF7043;
+            color: #fff;
+            padding: 30px 12px;
+            border-radius: 1rem;
+        }
+        -webkit-transition: all 0.2s ease-in-out;
+        -moz-transition: all 0.2s ease-in-out;
+        transition: all 0.2s ease-in-out;
     }
     .date {
         display: block;

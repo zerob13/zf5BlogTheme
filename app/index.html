@@ -28,7 +28,7 @@
     <div class="sidebar">
         <div class="container sidebar-bottom">
             <div class="about">
-                    <img src="images/profile_icon.jpg" alt=""/>
+                <img src="images/profile_icon.jpg" alt="" />
                 <h1>混沌的云</h1>
                 <p class="lead">
 
@@ -37,11 +37,11 @@
                 </p>
             </div>
             <ul class="navlist">
-                <li><a href="/">首页</a>
+                <li><a class="js-ajax-link" href="/">首页</a>
                 </li>
-                <li><a href="/articles">文章列表</a>
+                <li><a class="js-ajax-link" href="/articles">文章列表</a>
                 </li>
-                <li><a href="/about">关于我</a>
+                <li><a class="js-ajax-link" href="/about">关于我</a>
                 </li>
             </ul>
             <p class="siteinfo">
@@ -49,43 +49,48 @@
             </p>
         </div>
     </div>
-    <div class="content container">
-        <div class="posts">
-            <div class="post">
-                <h1 class="title"><a href="post/more-private-life">标题</a></h1>
-                <span class="date">Sun, Nov 30, 2014</span>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-            </div>
-            <div class="post">
-                <h1 class="title"><a href="post/more-private-life">标题</a></h1>
-                <span class="date">Sun, Nov 30, 2014</span>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-            </div>
-            <div class="post">
-                <h1 class="title"><a href="post/more-private-life">标题</a></h1>
-                <span class="date">Sun, Nov 30, 2014</span>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-                <p>测试文章</p>
-            </div>
+    <div>
+        <div id="ajax-container">
+            <div class="content container ">
+                <div class="posts">
+                    <div class="post">
+                        <h1 class="title"><a class="js-ajax-link" href="post/more-private-life">标题</a></h1>
+                        <span class="date">Sun, Nov 30, 2014</span>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                    </div>
+                    <div class="post">
+                        <h1 class="title"><a class="js-ajax-link" href="post/more-private-life">标题</a></h1>
+                        <span class="date">Sun, Nov 30, 2014</span>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                    </div>
+                    <div class="post">
+                        <h1 class="title"><a class="js-ajax-link" href="post/more-private-life">标题</a></h1>
+                        <span class="date">Sun, Nov 30, 2014</span>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                        <p>测试文章</p>
+                    </div>
 
+                </div>
+            </div>
         </div>
     </div>
+
     <!-- build:js(.) scripts/vendor.js -->
     <!-- bower:js -->
-    <script src="bower_components/zepto/zepto.js"></script>
+    <script src="bower_components/jquery/dist/jquery.js"></script>
     <script src="bower_components/nprogress/nprogress.js"></script>
-    <script src="bower_components/history.js/scripts/bundled/html4+html5/zepto.history.js"></script>
+    <script src="bower_components/history.js/scripts/bundled/html4+html5/jquery.history.js"></script>
     <!-- endbower -->
     <!-- endbuild -->
 

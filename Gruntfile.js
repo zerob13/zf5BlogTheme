@@ -315,7 +315,6 @@ module.exports = function (grunt) {
             },
             src: [
                 // Put HTML, CSS and JS first (not sure if it makes a difference)
-            "**/*.html",
             "**/*.css",
             "**/*.js",
             // Then include everything else...
@@ -324,6 +323,7 @@ module.exports = function (grunt) {
             "!apple-touch-*",
             "!favicon.ico",
             "!cache.manifest",
+            "!*.html",
             "!robots.txt"
                 ],
             dest: "<%= config.dist %>/cache.manifest"
@@ -379,9 +379,9 @@ module.exports = function (grunt) {
     'cssmin',
     'uglify',
     'copy:dist',
-    'rev',
+    // 'rev',
     'usemin',
-    'htmlmin',
+    // 'htmlmin',
     'manifest:generate'
   ]);
 

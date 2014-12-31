@@ -2,7 +2,7 @@
   "name": "zf5blogtheme",
   "private": true,
   "dependencies": {
-    "zepto": "~1.1.4",
+    "jquery": "*",
     "nprogress":"~0.1.6",
     "history.js":"~1.8.0"
   }
